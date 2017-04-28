@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>BizTalkComponents.PipelineComponents.PromoteDbQueryResult.PromoteDbQueryResult</id>
+    <version>1.0</version>
+    <authors>Robin Hultman</authors>
+    <projectUrl>https://github.com/BizTalkComponents/PromoteDbQueryResult</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Will promote the result of a database query</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>BizTalk</tags>
+  </metadata>
+</package>
