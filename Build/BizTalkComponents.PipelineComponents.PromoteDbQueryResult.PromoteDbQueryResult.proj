@@ -10,7 +10,7 @@
  </ItemGroup>
   <Target Name="GenerateMsi">
     <MsiTask
-			FileName="BizTalkComponents.PipelineComponents1.7.0.1.msi"
+			FileName="BizTalkComponents.PipelineComponents.PromoteDbQueryResult.1.7.0.1.msi"
 			DestinationPath="$(DestinationPath)"
 			ApplicationName="$(ApplicationName)"
 			SourceLocation="C:\%(Info.AssemblyInformationalVersion)"
