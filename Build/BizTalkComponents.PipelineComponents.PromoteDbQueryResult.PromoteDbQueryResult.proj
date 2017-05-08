@@ -1,26 +1,19 @@
 <Project DefaultTargets="GenerateMsi" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\BtsMsiTask\BtsMsiTask.targets" />
   <PropertyGroup>
-    <DestinationPath>$(BUILD_STAGINGDIRECTORY)</DestinationPath>
+    <DestinationPath>.</DestinationPath>
     <ApplicationName>BizTalkComponents.PipelineComponents.PromoteDbQueryResult.PromoteDbQueryResult</ApplicationName>
-    <ApplicationDescription></ApplicationDescription>
-    <SolutionName>$(ApplicationName)</SolutionName>
-    <SourceLocation>c:\$(BUILD_BUILDNUMBER)</SourceLocation>
-  </PropertyGroup>
+    <ApplicationDescription></ApplicationDescription>  </PropertyGroup>
   <ItemGroup>
-    <Resource Include="$(BUILD_SOURCESDIRECTORY)\Src\bin\$(BuildConfiguration)\BizTalkComponents.PipelineComponents.PromoteDbQueryResult.PromoteDbQueryResult.dll" />
+    <Resource Include="..\..\Src\bin\$(BuildConfiguration)\BizTalkComponents.PipelineComponents.PromoteDbQueryResult.PromoteDbQueryResult.dll" />
     
  </ItemGroup>
   <Target Name="GenerateMsi">
-    <MsiTask  ApplicationDescription="$(ApplicationDescription)"
-              Version="1.0.0.0"
-              FileName="Deploy.msi"
-              DestinationPath="$(DestinationPath)"
-              ApplicationName="$(ApplicationName)"
-              BtsAssemblies="@(BtsAssembly)"
-              
-	      Resources="@(Resource)"
-              SourceLocation="$(SourceLocation)"
-              ReferenceApplications="@(ReferenceApplication)" />
+    <MsiTask
+			FileName="BizTalkComponents.PipelineComponents1.7.0.1.msi"
+			DestinationPath="$(DestinationPath)"
+			ApplicationName="$(ApplicationName)"
+			SourceLocation="C:\%(Info.AssemblyInformationalVersion)"
+			Resources="@(Resource)" />
   </Target>
 </Project>
