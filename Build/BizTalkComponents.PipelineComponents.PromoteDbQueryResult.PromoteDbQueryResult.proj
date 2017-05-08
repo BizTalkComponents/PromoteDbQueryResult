@@ -5,7 +5,7 @@
     <ApplicationName>BizTalkComponents.PipelineComponents.PromoteDbQueryResult.PromoteDbQueryResult</ApplicationName>
     <ApplicationDescription></ApplicationDescription>  </PropertyGroup>
   <ItemGroup>
-    <Resource Include="..\..\Src\bin\$(BuildConfiguration)\BizTalkComponents.PipelineComponents.PromoteDbQueryResult.PromoteDbQueryResult.dll" />
+    <Resource Include="..\Src\bin\$(BuildConfiguration)\BizTalkComponents.PipelineComponents.PromoteDbQueryResult.PromoteDbQueryResult.dll" />
     
  </ItemGroup>
   <Target Name="GenerateMsi">
