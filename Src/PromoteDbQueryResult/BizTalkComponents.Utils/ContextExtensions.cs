@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using Microsoft.BizTalk.Message.Interop;
 
 namespace BizTalkComponents.Utils

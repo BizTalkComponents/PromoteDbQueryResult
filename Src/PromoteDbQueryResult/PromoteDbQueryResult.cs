@@ -12,7 +12,7 @@ namespace BizTalkComponents.PipelineComponents.PromoteDbQueryResult.PromoteDbQue
 {
     [ComponentCategory(CategoryTypes.CATID_PipelineComponent)]
     [System.Runtime.InteropServices.Guid("68222DB0-2B83-11E7-A608-9928429A23CB")]
-    [ComponentCategory(CategoryTypes.CATID_Receiver)]
+    [ComponentCategory(CategoryTypes.CATID_Any)]
     public partial class PromoteDbQueryResult : IComponent, IBaseComponent,
                                         IPersistPropertyBag, IComponentUI
     {

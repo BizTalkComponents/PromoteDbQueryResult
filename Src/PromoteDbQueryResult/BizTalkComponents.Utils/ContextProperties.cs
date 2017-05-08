@@ -1,4 +1,4 @@
-using Microsoft.XLANGs.BaseTypes;
+﻿using Microsoft.XLANGs.BaseTypes;
 
 namespace BizTalkComponents.Utils
 {
