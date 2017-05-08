@@ -9,10 +9,10 @@
 	</PropertyGroup>
 	<ItemGroup>
 	
-		<Resource Include="..\Src\PromoteDbQueryResult\bin\debug\BizTalkComponents.PipelineComponents.PromoteDbQueryResult.dll" />
+		<Resource Include="..\Src\PromoteDbQueryResult\bin\debug\BizTalkComponents.PipelineComponents.PromoteDbQueryResult.PromoteDbQueryResult.dll" />
   </ItemGroup>
   <Target Name="GetVersion">
-    <MSBuild.ExtensionPack.Framework.Assembly TaskAction="GetInfo" NetAssembly="..\Src\PromoteDbQueryResult\bin\debug\BizTalkComponents.PipelineComponents.PromoteDbQueryResult.dll">
+    <MSBuild.ExtensionPack.Framework.Assembly TaskAction="GetInfo" NetAssembly="..\Src\PromoteDbQueryResult\bin\debug\BizTalkComponents.PipelineComponents.PromoteDbQueryResult.PromoteDbQueryResult.dll">
       <Output TaskParameter="OutputItems" ItemName="Info"/>
     </MSBuild.ExtensionPack.Framework.Assembly>
   </Target>
