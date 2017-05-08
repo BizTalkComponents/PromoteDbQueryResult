@@ -13,7 +13,7 @@
 			FileName="BizTalkComponents.PipelineComponents.PromoteDbQueryResult.1.7.0.1.msi"
 			DestinationPath="$(DestinationPath)"
 			ApplicationName="$(ApplicationName)"
-			SourceLocation="C:\%(Info.AssemblyInformationalVersion)"
+			SourceLocation="C:\BizTalkComponents.PipelineComponents.PromoteDbQueryResult.1.7.0.1.msi"
 			Resources="@(Resource)" />
   </Target>
 </Project>
